@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20it003-Registration Form</title>
+</head>
+<body bgcolor="lightblue">
+    <hr>
+    <h1 style="text-align: center;">Registration Form</h1>
+    <hr>
+    <form action=""">
+        
+        <div class="name">
+           Name:  <input type="text" name="myName" id="name" placeholder="Enter your name">
+            <input type="text" name="myName" id="name" placeholder="Enter your middle name">
+             <input type="text" name="myName" id="name" placeholder="enter your last name">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+
+        <br>
+        <div>
+            Date of Birth: <input type="date" name="myDate">
+        </div>
+        <br>
+        <br>
+        <fieldset>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div>
+    </fieldset>
+    <br>
+<fieldset>
+        <div>
+            Community: General<input type="radio" name="Community"> ST/SC <input type="radio" name="Community">
+            OBC <input type="radio" name="Community">
+            Other <input type="radio" name="Community">
+        </div></fieldset>
+        <br>
+        <h2>Upload document</h2>
+        <p>Acpc Marks</p>
+        <input type="file">
+        <p>10th Std Marksheet</p>
+        <input type="file">
+        <p>12th Std Markshhet</p>
+        <input type="file" name="12th std" id="12th std">
+        <br>
+        <br>
+        <div>
+            College : 
+            <select name="Select" id="select">
+                <option value="">Choose your College</option>
+                <option value="CSPIT">CSPIT</option>
+                <option value="Depstar">Depstar</option>
+                <option value="DDU">DDU</option>
+                <option value="PDEU">PDEU</option>
+                <option value="MSU">MSU</option>
+            </select>
+        </div>
+        <br>
+        
+        <p>Password</p>
+        <input type="password" name="password" id="" placeholder="Enter your Password">
+        <p>Re-Enter your Password</p>
+        <input type="password" name="re-type" id="" placeholder="Re-Enter your Password">
+        <br>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+
+    
+</body>
+</html>
